@@ -1,8 +1,6 @@
-<div>
-<h1 id="title">{{course.title}}</h1>
-<div>
-  {{course.description}}
-</div>
-<div *ngIf="course.author!==''"><i><b>Author: {{course.author | uppercase}}</b></i></div>
-</div>
+<a routerLink="/posts">Posts List</a>
+<hr />
 
+<router-outlet></router-outlet>
+
+=== footer ===

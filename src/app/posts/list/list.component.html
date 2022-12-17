@@ -1,0 +1,5 @@
+<div class="post" *ngFor="let item of posts">
+    <h3 class="title"><a routerLink="/posts/{{item.id}}">{{item.title}}</a></h3>
+    <div class="summary" *ngIf="item.summary">{{item.summary || ''}}</div>
+    <hr>
+</div>
