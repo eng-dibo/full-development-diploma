@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'dibo-courses';
+
+  course={
+    title:'Angular course',
+    description:'Practical Angular course by DIBO',
+    author: 'Sherif Eldeeb'
+  }
 }
